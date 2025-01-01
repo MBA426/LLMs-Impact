@@ -1,0 +1,35 @@
+*{
+    margin: 0 ;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body{font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    
+}
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;}
+
+
+    nav ul {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        padding: 0 2rem;
+    }
+
+    nav a {
+        color: rgb(57, 39, 39);
+        text-decoration: none;
+        font-weight: 600;
+        padding: 0.75rem 1.5rem;
+        border-radius: 4px;
+        transition: all 0.3s ease;
+        font-size: 1.1rem;
+    }
