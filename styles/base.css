@@ -55,7 +55,7 @@ nav {
     .container {
         max-width: 1200px;
         margin: 0 auto;
-    }   
+    }
 
     h1 {
         font-size: 3rem;
@@ -71,6 +71,72 @@ nav {
         margin-bottom: 2rem;
         border-bottom: 3px solid #3498db;
         padding-bottom: 0.5rem;
+    }
+
+    .highlight-box {
+        background: white;
+        padding: 2rem;
+        border-radius: 8px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        margin: 2rem 0;
+    }
+
+   
+
+    .image-container {
+        margin: 0;
+        object-fit: cover;
+        text-align: center;
+    }
+
+    .image-container img {
+        object-fit: cover;
+        border-radius: 12px;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    }
+
+    .quote {
+        font-style: italic;
+        font-size: 1.4rem;
+        color:#e74c3c;
+        text-align: center;
+        margin: 3rem 0;
+        padding: 2rem;
+        border-left: 4px solid #e74c3c;
+        background: rgba(231, 76, 60, 0.1);
+    }
+
+    footer {
+        background: #2c3e50;
+        color: white;
+        text-align: center;
+        padding: 3rem;
+    }
+
+    .citation {
+        font-size: 0.9rem;
+        color: #666;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+
+.citation-note {
+        font-size: 0.8rem;
+        color: #666;
+        margin-top: 0.5rem;
+        border-left: 3px solid #3498db;
+        padding-left: 1rem;
+    }
+    
+    .source-link {
+        color: #3498db;
+        text-decoration: none;
+        font-weight: 500;
+    }
+    
+    .source-link:hover {
+        text-decoration: underline;
     }
 
     @media (max-width: 768px) {
