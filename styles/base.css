@@ -83,16 +83,19 @@ nav {
 
    
 
-    .image-container {
-        margin: 0;
-        object-fit: cover;
-        text-align: center;
+    .img-container {
+        width: 100%;
+        height: 300px;
+        margin: 20px 0;
+        overflow: hidden;
+        position: relative;
+        background-color: #f0f0f0;
     }
-
-    .image-container img {
+    
+    .img-container img {
+        width: 100%;
+        height: 100%;
         object-fit: cover;
-        border-radius: 12px;
-        box-shadow: 0 8px 20px rgba(0,0,0,0.15);
     }
 
     .quote {
